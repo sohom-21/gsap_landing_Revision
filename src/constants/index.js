@@ -17,6 +17,14 @@ const navLinks = [
     },
 ];
 
+const reviewIconLists = [
+    {
+        icon1: "/images/profile.svg",
+        icon2: "/images/profile1.svg",
+        icon3: "/images/Ellipse4.svg",
+    }
+]
+
 const cocktailLists = [
     {
         name: "Chapel Hill Shiraz",
@@ -171,6 +179,7 @@ const sliderLists = [
 
 export {
     navLinks,
+    reviewIconLists,
     cocktailLists,
     mockTailLists,
     profileLists,
