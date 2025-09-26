@@ -46,7 +46,7 @@ const About = () => {
                     <div className="md:col-span-8">
                         <p className="badge">Best Cocktails</p>
                         <h2>
-                            Where every slip is a soul melting <span className="text-white">-</span> experience brought
+                            Where every sip is a soul melting <span className="text-white">-</span> experience brought
                             forth
                         </h2>
                     </div>
