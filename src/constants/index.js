@@ -25,30 +25,39 @@ const reviewIconLists = [
     }
 ]
 
+const storeInfo = {
+    heading: "Where to Find Us",
+    address: "456, Raq Blvd. #404, Mumbai, Maharashtra, India 400001",
+    contact: {
+        phone: "+91 98765 43210",
+        email: "hello@nobelpour.in",
+    },
+};
+
 const cocktailLists = [
     {
         name: "Chapel Hill Shiraz",
         country: "AU",
         detail: "Battle",
-        price: "$10",
+        price: "₹800",
     },
     {
         name: "Caten Malbee",
         country: "AU",
         detail: "Battle",
-        price: "$49",
+        price: "₹4,000",
     },
     {
         name: "Rhino Pale Ale",
         country: "CA",
         detail: "750 ml",
-        price: "$20",
+        price: "₹1,600",
     },
     {
         name: "Irish Guinness",
         country: "IE",
         detail: "600 ml",
-        price: "$29",
+        price: "₹2,300",
     },
 ];
 
@@ -57,25 +66,25 @@ const mockTailLists = [
         name: "Tropical Bloom",
         country: "US",
         detail: "Battle",
-        price: "$10",
+        price: "₹800",
     },
     {
         name: "Passionfruit Mint",
         country: "US",
         detail: "Battle",
-        price: "$49",
+        price: "₹4,000",
     },
     {
         name: "Citrus Glow",
         country: "CA",
         detail: "750 ml",
-        price: "$20",
+        price: "₹1,600",
     },
     {
         name: "Lavender Fizz",
         country: "IE",
         detail: "600 ml",
-        price: "$29",
+        price: "₹2,300",
     },
 ];
 
@@ -108,20 +117,11 @@ const goodLists = [
     "Freshly muddled flavors",
 ];
 
-const storeInfo = {
-    heading: "Where to Find Us",
-    address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
-    contact: {
-        phone: "(555) 987-6543",
-        email: "hello@jsmcocktail.com",
-    },
-};
-
 const openingHours = [
-    { day: "Mon–Thu", time: "11:00am – 12am" },
-    { day: "Fri", time: "11:00am – 2am" },
-    { day: "Sat", time: "9:00am – 2am" },
-    { day: "Sun", time: "9:00am – 1am" },
+    { day: "Mon–Thu", time: "11:00am – 11:00pm" },
+    { day: "Fri", time: "11:00am – 12:00am" },
+    { day: "Sat", time: "9:00am – 12:00am" },
+    { day: "Sun", time: "9:00am – 11:00pm" },
 ];
 
 const socials = [
@@ -139,41 +139,6 @@ const socials = [
         name: "Facebook",
         icon: "/images/fb.png",
         url: "#",
-    },
-];
-
-const sliderLists = [
-    {
-        id: 1,
-        name: "Classic Mojito",
-        image: "/images/drink1.png",
-        title: "Simple Ingredients, Bold Flavor",
-        description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
-    },
-    {
-        id: 2,
-        name: "Raspberry Mojito",
-        image: "/images/drink2.png",
-        title: "A Zesty Classic That Never Fails",
-        description:
-            "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
-    },
-    {
-        id: 3,
-        name: "Violet Breeze",
-        image: "/images/drink3.png",
-        title: "Simple Ingredients, Bold Flavor",
-        description:
-            "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
-    },
-    {
-        id: 4,
-        name: "Curacao Mojito",
-        image: "/images/drink4.png",
-        title: "Crafted With Care, Poured With Love",
-        description:
-            "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
     },
 ];
 const allCocktails = [
@@ -222,6 +187,5 @@ export {
     openingHours,
     storeInfo,
     socials,
-    sliderLists,
     allCocktails,
 };
